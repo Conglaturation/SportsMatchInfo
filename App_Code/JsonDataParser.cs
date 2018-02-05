@@ -9,12 +9,13 @@ using System.IO;
 namespace Objects
 {
     /// <summary>
-    /// Summary description for JsonDataParser
+    /// A class that handles parsing/deserialization of JSON data files into
+    /// sports match objects.
     /// </summary>
     public class JsonDataParser
     {
         /// <summary>
-        /// Parses and deserializes a JSON data file into objects
+        /// Parses and deserializes a JSON data file into objects.
         /// </summary>
         /// <param name="jsonFileLoc">JSON data file location as a string</param>
         public static void ParseJson(string jsonFileLoc)
